@@ -1,0 +1,71 @@
+name: jacob.stoltenberg
+description: disintermediate
+version: 0.0.1
+author: qqvebnxx.grsyreiv@8qgqlria.com
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: jacobstoltenberg
+  parentArtefactID: ''
+  buildSystem: maven
+  author: null
+  createdAt: '2025-11-21 22:57:06'
+pipelines:
+  pipelines/pipeline1:
+    name: pipeline1
+    description: Really solid info
+    author: qqvebnxx.grsyreiv@8qgqlria.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-11-21 22:57:06'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.1.26
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-11-21 22:57:06'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules:
+    businessRules/br1:
+      name: br1
+      description: ''
+      tags: []
+      inputs: []
+      outputs: []
+      author: qqvebnxx.grsyreiv@8qgqlria.com
+      createdAt: '2022-12-15 18:04:50'
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2025-11-21T22:57:06.400813Z'
+  name: plibMaven
+  version: 8.16.0-SNAPSHOT
+  id: '1727009814'
+  createdAt: '2025-11-21T22:57:06.400813Z'
+  type: plibMaven
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}
